@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <User>
+    <Prisoner>
+      <Pos>
+        <x>315</x>
+        <y>100</y>
+      </Pos>
+    </Prisoner>
+  </User>
+  <AIPlayer>
+    <SpawnPoint>
+      <type>Portal</type>
+      <Pos>
+        <x>1590</x>
+        <y>700</y>
+      </Pos>
+      <mob rate="50">Guard</mob>
+      <timerAdd>1000</timerAdd>
+    </SpawnPoint>
+    <SpawnPoint>
+      <type>Portal</type>
+      <Pos>
+        <x>1490</x>
+        <y>890</y>
+      </Pos>
+      <mob rate="50">Guard</mob>
+      <timerAdd>500</timerAdd>
+    </SpawnPoint>
+    <SpawnPoint>
+      <type>Portal</type>
+      <Pos>
+        <x>300</x>
+        <y>890</y>
+      </Pos>
+      <mob rate="50">Guard</mob>
+      <timerAdd>0</timerAdd>
+    </SpawnPoint>
+  </AIPlayer>
+
+  <Background>
+    <path>2d//UI//Backgrounds//WorldMap2</path>
+  </Background>
+
+
+
+</Root>
